@@ -129,7 +129,7 @@ if __name__ == '__main__':
     # for t in threads:
     #     t.join()
 
-    # use of the different functionalities
+    # usage of different functionalities calling respective functions with the path and lock as arguments
     create(path, lock)
     read(path, lock)
     delete(path, lock)
