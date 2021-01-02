@@ -12,3 +12,7 @@ The data store will support the following functionalities:
 7. Appropriate error responses will always be returned to a client if it uses the data store in unexpected ways or breaches any limits.
 8. The file size never exceeds 1 GB.
 9. The file can also be accessed using multiple threads.
+
+
+# Accessing
+Run main.py and you can use every functionality by calling different functions inside main.py, passing path and lock as arguments, where path will be optional if not given the file will be created in the dir where scripts are.
