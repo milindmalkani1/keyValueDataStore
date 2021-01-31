@@ -4,7 +4,7 @@ This is a file which can be used as a data store that supports the basic CRD(cre
 # Getting Started
 
 ## Requirements
-* Python 3.8.5
+* Python 3
 
 ## Features
 The Key-Value Data Store will support following funcionality:
