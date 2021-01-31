@@ -18,5 +18,8 @@ The Key-Value Data Store will support following funcionality:
 8. The file size never exceeds 1 GB.
 9. The file can also be accessed using multiple threads.
 
+# Built With
+* Python
+
 ## Accessing
 Run main.py and you can use every functionality by calling different functions inside main.py, passing path(refer to point 1) and lock as arguments, where path will be optional if not given the file will be created in the dir where scripts are.
