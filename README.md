@@ -1,8 +1,13 @@
 # File Based Key-Value Data Store(CRD)
-This is a file which can be exposed as a library that supports the basic CRD(create, read, write) operations. Data store is meant to be used as a local storage for one single process on one laptop.
+This is a file which can be used as a data store that supports the basic CRD(create, read, write) operations. Data store is meant to be used as a local storage for one single process on one laptop.
 
-The data store will support the following functionalities:
+# Getting Started
 
+## Requirements
+* Python 3.8.5
+
+## Features
+The Key-Value Data Store will support:
 1. It can be initialized using an optional file path. If one is not provided, it will reliably create itself in a reasonable location on the laptop.
 2. A new key-value pair can be added to the data store using the Create operation. The key is always a string - capped at 32chars. The value is always a JSON object - capped at 16 KB.
 3. If Create is invoked for an existing key, an appropriate error will be returned.
@@ -13,6 +18,5 @@ The data store will support the following functionalities:
 8. The file size never exceeds 1 GB.
 9. The file can also be accessed using multiple threads.
 
-
-# Accessing
-Run main.py and you can use every functionality by calling different functions inside main.py, passing path and lock as arguments, where path will be optional if not given the file will be created in the dir where scripts are.
+## Accessing
+Run main.py and you can use every functionality by calling different functions inside main.py, passing path(refer to point 1) and lock as arguments, where path will be optional if not given the file will be created in the dir where scripts are.
