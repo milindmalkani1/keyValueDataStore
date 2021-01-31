@@ -7,7 +7,7 @@ This is a file which can be used as a data store that supports the basic CRD(cre
 * Python 3.8.5
 
 ## Features
-The Key-Value Data Store will support:
+The Key-Value Data Store will support following funcionality:
 1. It can be initialized using an optional file path. If one is not provided, it will reliably create itself in a reasonable location on the laptop.
 2. A new key-value pair can be added to the data store using the Create operation. The key is always a string - capped at 32chars. The value is always a JSON object - capped at 16 KB.
 3. If Create is invoked for an existing key, an appropriate error will be returned.
